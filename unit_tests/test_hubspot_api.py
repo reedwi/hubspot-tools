@@ -10,7 +10,7 @@ logger = logging.getLogger('unittest_api')
 
 @pytest.fixture(name='valid_credential')
 def valid_credential() -> str:
-    return "pat-na1-8g8g8g8g-b868-4273-97e5-095760ea417f"
+    return "pat-na1-8g8g8g8g-b868-4273-97e5-095760ea417f" # Not actually valid, but built in correct structure
 
 
 @pytest.fixture(name='too_short_credential')
